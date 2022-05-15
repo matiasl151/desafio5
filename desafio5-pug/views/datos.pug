@@ -1,0 +1,21 @@
+extends layout 
+
+block tabla-productos
+    script. 
+    h1="Productos"
+    if hayProductos 
+        table
+            thead 
+                th="Nombre" 
+                th="Precio" 
+                th="Imagen" 
+            tbody
+                each prod in productos
+                    tr 
+                        td= prod.title
+                        td= prod.price
+                        td= prod.thumbnail
+    else
+        p No hay productos
+
+

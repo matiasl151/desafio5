@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Macbook M1",
+        "price": 2000,
+        "thumbnail": "notebook.jpg",
+        "id": 1652102863883
+    },
+    {
+        "title": "TV Samsung 85",
+        "price": 4000,
+        "thumbnail": "televisor.jpg",
+        "id": "1652102912326"
+    },
+    {
+        "title": "Xiaomi Redmi 11",
+        "price": "400",
+        "thumbnail": "xiaomi.png",
+        "id": 1652575496614
+    }
+]
