@@ -3,7 +3,7 @@
 <table>
    <thead>
        <th>Nombre</th>
-       <th>Precio</th>
+       <th>Precio(USD)</th>
        <th>Imagen</th>
    </thead>
    <tbody>
@@ -11,7 +11,7 @@
           <tr>
               <td>{{this.title}}</td>
               <td>{{this.price}}</td>
-              <td>{{this.thumbnail}}</td>
+              <td><img src="{{this.thumbnail}}" alt=""></td>
           </tr>
        {{/each}}
    </tbody>
@@ -19,3 +19,5 @@
 {{else}}
 <p>no hay productos para mostrar...</p>
 {{/if}}
+<br>
+<button onclick="window.location='/';">Agregar productos</button>

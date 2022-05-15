@@ -1,5 +1,5 @@
 [
-        {
+    {
         "title": "Macbook M1",
         "price": 2000,
         "thumbnail": "https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-48.png",

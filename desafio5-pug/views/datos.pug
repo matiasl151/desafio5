@@ -14,8 +14,12 @@ block tabla-productos
                     tr 
                         td= prod.title
                         td= prod.price
-                        td= prod.thumbnail
+                        td
+                            img(src=prod.thumbnail, alt="")
+                         
     else
         p No hay productos
+    br
+    button(onclick="window.location='/';") Agregar producto
 
 

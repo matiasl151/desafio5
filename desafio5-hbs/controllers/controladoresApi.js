@@ -27,7 +27,8 @@ const controladoresApi = {
         }
         req.body.id = Date.now()
         const productoAgregado = await contenedor.save(req.body)
-        res.status(201).json(productoAgregado)
+        // res.status(201).json(productoAgregado)
+        res.redirect('/')
     },
     updateProducto : async (req, res) => {
         const idProducto = req.params.idProducto
